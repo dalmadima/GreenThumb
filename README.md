@@ -10,3 +10,5 @@
 - light system				    - Kamil
 - package				    	    - Kamil / all
 - communication protocol  - Margit/Stefan/Kamil
+- 
+ :)
