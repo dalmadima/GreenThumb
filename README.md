@@ -32,14 +32,14 @@
 Plant node:
 
 - runs on ESP8266 with Arduino stack,
-- connects soil moisture sensor, air hiumidity sensor, air temperature sensor, light sensor, (optional: CO2 sensor),
-- brodcasts sensor data to central unit,
+- connects soil moisture sensor, air humidity sensor, air temperature sensor, light sensor, (optional: CO2 sensor),
+- broadcasts sensor data to central unit,
 - receives and indicates with light actual plant comfort factor
 - provides calibration interface,
 
 Central unit node:
 
-- maintains connectetions with plant nodes,
+- maintains connections with plant nodes,
 - logs all data from plant nodes,
 - uses neural network for evaluating plant comfort factor,
 - provides UI for all functions (eg. calibration, data overview, statistics, connecting new nodes),
